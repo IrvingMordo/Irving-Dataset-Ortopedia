@@ -153,12 +153,10 @@ Según el análisis Lasso, las características más relevantes son:
 
 ```
 machine-learning-tutorial/
-├── README.md                                    # Este archivo
-├── machine-learning-tutorial-for-beginners.ipynb # Notebook principal
-├── requirements.txt                             # Dependencias
-└── data/                                       # Datos (si se agregan)
-    └── column_2C_weka.csv
-```
+├── README.md                                    
+├── machine-learning-tutorial-for-beginners.ipynb 
+
+``` 
 
 ## 👨‍💻 Autor
 
