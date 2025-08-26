@@ -1,4 +1,4 @@
-# 🧠 Machine Learning Tutorial for Beginners
+# Machine Learning Tutorial for Beginners
 
 [![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://python.org)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org)
@@ -7,14 +7,14 @@
 
 Un tutorial completo de **Machine Learning** utilizando un dataset real de pacientes ortopédicos. Este proyecto cubre tanto **aprendizaje supervisado** como **no supervisado** con implementaciones prácticas en Python.
 
-## 📊 Dataset
+## Dataset 
 
 **Archivo:** `column_2C_weka.csv`
 - **310 registros** de pacientes ortopédicos
 - **6 características numéricas** relacionadas con medidas pélvicas y lumbares
 - **Variable objetivo:** Clasificación binaria (Normal/Abnormal)
 
-### 🔍 Variables del Dataset
+### Variables del Dataset
 
 | Variable | Descripción | Tipo |
 |----------|-------------|------|
@@ -26,16 +26,16 @@ Un tutorial completo de **Machine Learning** utilizando un dataset real de pacie
 | `degree_spondylolisthesis` | Grado de espondilolistesis | Float64 |
 | `class` | Clase (Normal/Abnormal) | Object |
 
-### 📈 Distribución de Clases
+### Distribución de Clases
 
 ```
 Abnormal: 210 casos (67.7%) ████████████████████
 Normal:   100 casos (32.3%) ████████
 ```
 
-## 🤖 Algoritmos Implementados
+## Algoritmos Implementados
 
-### 📚 Aprendizaje Supervisado
+### Aprendizaje Supervisado
 
 | Algoritmo | Accuracy/Score | Descripción |
 |-----------|----------------|-------------|
@@ -46,7 +46,7 @@ Normal:   100 casos (32.3%) ████████
 | **Random Forest** | 84% | Ensemble de árboles de decisión |
 | **Regresión Logística** | - | Clasificación con curva ROC |
 
-### 🔍 Aprendizaje No Supervisado
+###  Aprendizaje No Supervisado
 
 | Algoritmo | Descripción |
 |-----------|-------------|
@@ -55,7 +55,7 @@ Normal:   100 casos (32.3%) ████████
 | **T-SNE** | Visualización de datos en 2D |
 | **Clustering Jerárquico** | Dendrogramas para análisis de clusters |
 
-## 🛠️ Técnicas de Evaluación
+##  Técnicas de Evaluación
 
 - ✅ **Train-Test Split** (70%-30%)
 - ✅ **Cross Validation** (5-fold)
@@ -64,14 +64,14 @@ Normal:   100 casos (32.3%) ████████
 - ✅ **Curva ROC** y métricas AUC
 - ✅ **Métricas completas:** Accuracy, Precision, Recall, F1-score
 
-## 🔧 Preprocesamiento
+##  Preprocesamiento
 
 - **Estandarización** de datos numéricos
 - **One-hot encoding** para variables categóricas
 - **Pipeline** para automatizar procesos
 - **Normalización** para algoritmos sensibles a escala
 
-## 📋 Requisitos
+##  Requisitos
 
 ```bash
 pip install numpy pandas matplotlib seaborn scikit-learn scipy
@@ -85,57 +85,38 @@ pip install numpy pandas matplotlib seaborn scikit-learn scipy
 - `scikit-learn` - Algoritmos de ML
 - `scipy` - Computación científica
 
-## 🚀 Uso
 
-1. **Clona el repositorio:**
-   ```bash
-   git clone https://github.com/IrvingMordo26/machine-learning-tutorial.git
-   cd machine-learning-tutorial
-   ```
-
-2. **Instala las dependencias:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Abre el notebook:**
-   ```bash
-   jupyter notebook machine-learning-tutorial-for-beginners.ipynb
-   ```
-
-4. **Ejecuta las celdas** para reproducir todos los resultados
-
-## 📊 Resultados Destacados
+##  Resultados Destacados
 
 ### 🏆 Mejores Resultados por Algoritmo:
 - **🥇 Mejor Score General:** Lasso Regression (0.964)
 - **🥈 Mejor Accuracy:** KNN con K=18 (88.17%)
 - **🥉 Mejor Balance:** Random Forest (84% accuracy)
 
-### 🔍 Características Más Importantes:
+###  Características Más Importantes:
 Según el análisis Lasso, las características más relevantes son:
 1. `pelvic_incidence` (coeficiente: 0.825)
 2. `pelvic_tilt numeric` (coeficiente: -0.721)
 
-### 📈 Insights del Dataset:
+###  Insights del Dataset:
 - ✅ **Dataset balanceado** - No requiere técnicas especiales de balanceo
 - ✅ **Sin valores faltantes** - Datos limpios y completos
 - ✅ **Correlaciones moderadas** - Buenas para ML
 
-## 📚 Conceptos Clave Aprendidos
+## Conceptos Clave Aprendidos
 
-### 🎯 Supervisado:
+###  Supervisado:
 - Diferencia entre overfitting y underfitting
 - Importancia de la validación cruzada
 - Optimización de hiperparámetros
 - Interpretación de métricas de evaluación
 
-### 🔍 No Supervisado:
+###  No Supervisado:
 - Clustering y evaluación de clusters
 - Reducción de dimensionalidad
 - Visualización de datos multidimensionales
 
-## 🎓 Preguntas de Examen
+##  Preguntas de Examen
 
 ### Conceptuales:
 - ¿Qué es el aprendizaje supervisado vs no supervisado?
@@ -149,7 +130,7 @@ Según el análisis Lasso, las características más relevantes son:
 - ¿Cómo interpretar una matriz de confusión?
 - ¿Para qué sirve PCA?
 
-## 📁 Estructura del Proyecto
+##  Estructura del Proyecto
 
 ```
 machine-learning-tutorial/
@@ -158,18 +139,8 @@ machine-learning-tutorial/
 
 ``` 
 
-## 👨‍💻 Autor
 
-**Irving Morales**  
-📧 Email: 220732@utxicotepec.edu.mx  
-🎓 Estudiante de Machine Learning  
-🔗 GitHub: [@IrvingMordo26](https://github.com/IrvingMordo26)
-
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia MIT. Ver el archivo [LICENSE](LICENSE) para más detalles.
-
-## 🤝 Contribuciones
+##  Contribuciones
 
 Las contribuciones son bienvenidas. Por favor:
 
@@ -179,10 +150,5 @@ Las contribuciones son bienvenidas. Por favor:
 4. Push a la rama (`git push origin feature/AmazingFeature`)
 5. Abre un Pull Request
 
-## 📞 Contacto
 
-Si tienes preguntas sobre este tutorial o quieres colaborar, no dudes en contactarme.
 
----
-
-⭐ **¡No olvides darle una estrella al repositorio si te fue útil!** ⭐# Irving-Dataset-Ortopedia
